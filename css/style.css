@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+    color: aqua;
+}
+
+button {
+    margin: 10px;
+    text-align: center;
+    color: blue;
+    border-color: lightgreen;
+}
+input {
+  margin: 10px;
+  text-align: center;
+  color: lightpink;
+  border-color: lightgreen;
+}
+form {
+    margin: 10px;
+    text-align: center;
+    color: lightpink;
+    border-color: lightgreen;
+
+}
+div {
+    margin: 10px;
+    text-align: center;
+    color: lightpink;
+    border-color: lightgreen;
+}
