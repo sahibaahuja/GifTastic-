@@ -11,12 +11,16 @@ function displayfoods() {
     }).then(function (response) {
         var results = response.data;
         for (var i = 0; i < 10; i++) {
+            var div = $("<div>")
+            var span = $("<span>")
             var img = $("<img>")
             img.attr("src", response.data[i].images.fixed_height.url)
-            $("#tasty-view").append(img); 
-            $("#rating-view").append(rating); 
             var rating = results[i].rating;
-            var p = $("<p>").text("Rating: " + rating);
+            div.text(rating)
+            span.append(div)
+            span.append(img); 
+            $("#rating-view").append(span)
+
         }
 
         });
